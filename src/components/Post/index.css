@@ -1,0 +1,29 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 0 8px #888;
+  margin: 10px 0px;
+  border-radius: 8px;
+  padding: 20px;
+  max-height: 200px;
+}
+
+.post-user-id {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  font-family: Lato;
+  font-size: 12px;
+}
+
+.post-title {
+  font-family: Roboto;
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.post-body {
+  font-family: Lato;
+  font-size: 14px;
+}

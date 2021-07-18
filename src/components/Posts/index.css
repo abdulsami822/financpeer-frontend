@@ -1,0 +1,38 @@
+.home-bg {
+  min-height: 100vh;
+  display: flex;
+  margin: 30px 0px;
+}
+
+.all-posts-heading {
+  color: var(--main-color);
+  font-family: Roboto;
+}
+
+.all-posts-container {
+  padding: 20px;
+}
+
+.loader-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-posts-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-posts {
+  font-family: Roboto;
+  color: tomato;
+}

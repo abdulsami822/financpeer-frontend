@@ -1,0 +1,28 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 8px #888;
+}
+
+.footer-heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.footer-icon-container {
+  margin: 10px 0px;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icon {
+  font-size: 23px;
+  color: var(--main-color);
+}
